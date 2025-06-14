@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Voice to Text Anywhere",
+  "version": "1.0",
+  "description": "Speak to fill out text fields on any website.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}

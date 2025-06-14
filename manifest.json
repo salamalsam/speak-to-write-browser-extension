@@ -3,6 +3,8 @@
   "name": "Voice to Text Anywhere",
   "version": "1.0",
   "description": "Speak to fill out text fields on any website.",
+    "author": "Muhammad Salam",
+  "homepage_url": "https://developera.io", 
   "permissions": ["scripting", "activeTab"],
   "content_scripts": [
     {
